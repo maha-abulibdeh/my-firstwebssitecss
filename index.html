@@ -24,6 +24,27 @@
         </ul>
     </nav>
     <div class="container" id="section-1-gradient" >
+        <div class="row">
+            <div class="col-6  leftside-col" >
+                <div>
+                    <h1 class="large">Rania's Maamoul</h1>
+                    <h1 class="large"> Always Fresh Always Delcious... </h1>
+                </div>
+                <form>
+                <div>
+                   
+                    <h2> User Name</h1>
+                        <input class="inputbox"  name="Username"type="text" placeholder="User name">
+                    <h2> Password</h2>
+                    <input class="inputbox" name="password" type="text" placeholder="Password">
+
+
+                    
+                    
+                </div>
+            </form>
+            </div>
+        </div>
     </div>
     <script>
         function dropdownMenu(){
@@ -36,7 +57,44 @@
             }
    
         }
+        
+
+
+       
+
+
+
+       
+
+            var i=0; // startpoint
+        var images= [];
+        var time= 3000;
+        
+        // imagelist
+        images[0]= 'image1.jpg';
+        images[1]= 'image2.jpg';
+        images[2]= 'image3.jpg';
+        images[3]= 'image4.jpg';
+        images[4]= 'image5.jpg';
+        images[5]= 'image6.jpg';
+        images[6]= 'image7.jpg';
+        images[7]= 'image8.jpg';
+        images[8]= 'image9.jpg';
+        images[9]= 'image10.jpg';
+       
+       //change image
+       function changeimg(){
+           document.slide.src = images[i];
+           if(i< images.length -1){
+               i++;
+              } else{
+                   i=0;
+
+               }
+             settimeout("changeimg()",time);
+       }
         </script>
+        <img name="slide" width="400" height="200">
 
 </body>
 </html>
