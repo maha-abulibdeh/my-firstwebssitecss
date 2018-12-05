@@ -352,23 +352,7 @@ input[type="text"]{
 
 
 }
-@media only screen and (max-width: 600px){
-    topnav #dropdownClick ,
-    container #section-1-gradient,
-    .section2header,
-    .images,
-    .container1,
-    .container2,
-    .container3,
-    .flex-container,
-    .footsy,
-    .col-3
-    {
-        float:none;
-        text-align: center;
-        width:100%;
 
-    }
-}
+
 
 
